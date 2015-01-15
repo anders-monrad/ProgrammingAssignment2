@@ -36,4 +36,3 @@ cacheSolve <- function(x, ...) {
   solvedMatrix
 }
 
-?solve()

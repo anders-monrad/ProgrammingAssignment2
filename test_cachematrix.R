@@ -18,4 +18,4 @@ for (i in 1:1000) {
 x <- matrix(rnorm(160000),400,400)
 x_ <- makeCacheMatrix(x)
 cacheSolve(x_)
-print(identical(x_$getInv(),solve(x)))
+print(identical(x_$getSolvedMatrix(),solve(x)))
